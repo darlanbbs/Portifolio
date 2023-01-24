@@ -29,8 +29,8 @@ body{
     transition: all 0.6s;
 }
 .nav ul{
-    width: 100%;
-    gap: 10px;
+    width: 80%;
+    gap: 40px;
 }
 
 .nav a:hover{
@@ -43,6 +43,11 @@ body{
 .container{
     width: 100vw;
     margin: 0;
+}
+.titlePhrase{
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
 }
 .title{
     display: flex;
@@ -103,7 +108,7 @@ body{
 }
     .cards{
         gap: 20px;
-        padding: 175px;
+        padding: 85px;
     }
     .titleSkills,.titleProject{
         color: #fff;
@@ -179,22 +184,27 @@ body{
 projetos */
 
 .projects{
-    padding: 175px;
+    padding: 85px;
     gap: 20px;
 }
-.imageProjects img{
+.imageProjects a {
     width: 400px;
-    height: 300px;
+    height: 350px;
+}
+.imageProjects img{
+    width: 100%;
+    height: 80%;
     gap: 20px;
     margin: 10px;
     transition: all 0.5s;
 }
+
 .imageProjects img:hover{
     opacity: 0.5;
 }
 
 .moreProjects{
-    padding: 10px 75px;
+    padding: 10px 65px;
     background-color: gold;
     transition: all 0.4s;
     display: flex;
@@ -216,7 +226,6 @@ projetos */
 @media(max-width:1350px){
     .navBar{
         position: static;
+        width: 95vw;
     }
 }
-
-
